@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio8</title>
+</head>
+
+<body>
+    <h1> Eleições </h1>
+
+    <form name="selectForm">
+        <label for="votação">Escolha sua opção, em seguida, clique no botão votar</label>
+        <p>Digite 1 para cadidato 1 </p>
+        <p>Digite 2 para cadidato 2 </p>
+        <p>Digite 3 para voto nulo </p>
+        <p>Digite 4 para voto em branco </p>
+
+
+        <select id="voto" name="voto" multiple="multiple">
+            <option selected="selected"> </option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+
+        </select>
+    </form>
+
+
+    <button onclick="votar()">VOTAR</button>
+    <button onclick="apurar()">APURAR</button>
+
+    <script src="js/exercicio8.js"></script>
+
+</body>
+
+</html>

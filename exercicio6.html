@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicio 6</title>
+</head>
+
+<body>
+  <h1> Calculando o Quadrado dos Números de 1 a 20</h1>
+
+  <script>
+
+    for (var i = 1; i < 21; i++) {
+      var quadrado = i * i;
+      document.write("<p> O quadrado de " + `${i}` + " = " + `${quadrado}` + "</p>");
+    }
+
+
+
+    texto = "<ul>";
+    for (var i = 1; i < 21; i++) {
+      texto += "<li> O quadrado de " + `${i}` + " = " + `${i * i}` + "</li>";
+    }
+    texto += "</ul>";
+
+    document.write(texto);
+
+  </script>
+</body>
+
+</html>
